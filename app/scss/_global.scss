@@ -1,0 +1,44 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+html,
+body{
+    // height: 100%;
+    // position: relative;
+    // overflow-x: hidden;
+    // @extend %SFP-regular;
+    // font-size: 20px;
+    // line-height: 24px;
+    // min-width: 320px;
+    // color: #2F3035;
+    // font-family: sans-serif;
+}
+p{
+  margin: 0;
+  // line-height: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  font-size: inherit;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit
+}
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container{
+  // max-width: 1200px;
+  margin: 0 auto;
+  // padding: 0 15px;
+}
