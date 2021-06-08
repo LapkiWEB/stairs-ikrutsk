@@ -52,8 +52,37 @@
     max-width: 578px;
     text-align: center;
   }
+  .benefits__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .benefits__wrapper{
+    flex-wrap: wrap;
+     justify-content: center;
+  }
+  .benefits__item{
+    max-width: 370px;
+    width: 100%;
+  }
 }
 
+
+
+
+@media(max-width: 800px) {
+  .benefits__inner{
+    flex-wrap: wrap;
+  }
+  .benefits__text{
+    margin-bottom: 25px;
+  }
+  .benefits__btn{
+    margin: 0 auto;
+  }
+  .benefits__item{
+    margin-bottom: 20px;
+  }
+}
 
 @media(max-width: 550px) {
   .main__line{
@@ -62,9 +91,9 @@
 }
 
 
-
 @media(max-width: 485px) {
-  .main-title{
+  .main-title,
+  .title{
     font-size: 28px;
     line-height: 32px;
   }
@@ -74,8 +103,13 @@
   .header__btn{
     display: none;
   }
-
-
+  .title{
+    margin-bottom: 15px;
+  }
+  .benefits__subtitle,
+  .benefits__wrapper {
+    margin-bottom: 25px;
+  }
   // Временный фикс бага картинки главного экрана. Не растягивалась вниз
   .header, 
   .header-background {

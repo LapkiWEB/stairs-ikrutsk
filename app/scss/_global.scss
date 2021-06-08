@@ -111,3 +111,14 @@ li {
   //   width: 100%;
   // }
 } 
+
+.title{
+  @extend %AlGrey-Bold;
+  font-size: 36px;
+  line-height: 49px;
+  padding: 0px 35px;
+  border-bottom: 2px solid $blue;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 56px;
+}

@@ -13,12 +13,10 @@
    background-size: cover;
    background-position: center;
  }
-
  .header-background {
    background: rgba(59, 59, 59, 0.8);
    min-height: 885px;
  }
-
  .header__top {
    min-height: 90px;
    padding: 10px 0;
@@ -26,7 +24,6 @@
    justify-content: space-between;
    align-items: center;
  }
-
  .header__logo {
    width: 100px;
 
@@ -35,17 +32,14 @@
      height: 70px;
    }
  }
-
  .menu__list {
    display: inline-block;
    font-size: 16px;
    line-height: 16px;
-
    &+.menu__list {
      margin-left: 45px;
    }
  }
-
  .menu__list {
    position: relative;
 
@@ -55,7 +49,6 @@
      }
    }
  }
-
  .sub-menu {
    display: none;
    width: 250px;
@@ -66,13 +59,11 @@
    color: #B5AB9F;
    z-index: 10;
  }
-
  .sub-menu__list {
    background: rgba(59, 59, 59, 0.95);
    padding: 12px 10px;
    transition: all .3s;
    cursor: pointer;
-
    &:hover {
      background: rgba(40, 40, 40, 0.8);
      color: $text;
@@ -170,8 +161,81 @@
   }
 }
 
- // end header
+// end header
+//  start section benefits
 
+.benefits{
+  padding: 40px 0;
+}
+
+.benefits__title{
+  max-width: 330px
+}
+
+.benefits__subtitle{
+  @extend %AnPro-Regular;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 25px;
+  margin-bottom: 66px;
+}
+
+
+.benefits__wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.benefits__item{
+  // max-width: 370px;
+  width: 100%;
+  text-align: center;
+}
+.benefits__item-img{
+  // width: 100px;
+  // height: 100px;
+  // margin-bottom: 15px;
+  margin: 0 auto;
+}
+.benefits__item-text{
+  @extend %AnPro-Regular;
+  font-size: 24px;
+  line-height: 24px;
+  span{
+    font-size: 14px;
+    line-height: 14px;
+    color: $line;
+    display: block;
+  }
+}
+
+.benefits__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits__text{
+  @extend %AnPro-Regular;
+  font-size: 18px;
+  line-height: 25px;
+  max-width: 980px;
+  width: 100%;
+  padding-right: 25px;
+}
+
+.benefits__btn{
+  height: 44px;
+  min-width: 243px;
+}
+
+
+
+
+//  end section benefits
 
 
  @import 'media';
