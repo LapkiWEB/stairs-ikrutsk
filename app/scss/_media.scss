@@ -114,6 +114,9 @@
   .stairs__down-text{
     width: 100%;
   }
+  .header__title{
+    border-bottom: 1px solid transparent;
+  }
 }
 
 
@@ -131,6 +134,16 @@
 @media(max-width: 550px) {
   .main__line{
     padding: 12px 30px 15px;
+  }
+  .price__inner{
+    flex-wrap: wrap;
+  }
+  .price__name{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .price-money{
+    width: 100%;
   }
 }
 
@@ -178,6 +191,7 @@
   }
   .title{
     margin-bottom: 15px;
+    padding: 0 10px;
   }
   .benefits__subtitle,
   .benefits__wrapper {
@@ -190,7 +204,10 @@
   }
    // Временный фикс бага картинки главного экрана. Не растягивалась вниз
 
-
+  .price__title{
+    margin-bottom: 35px;
+    max-width: 240px;
+  }
 
 
 

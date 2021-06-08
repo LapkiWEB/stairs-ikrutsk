@@ -168,7 +168,7 @@
   padding: 40px 0;
 }
 .benefits__title{
-  max-width: 330px
+  max-width: 220px
 }
 .benefits__subtitle{
   @extend %AnPro-Regular;
@@ -227,10 +227,10 @@
 // start section stairs
 
 .stairs{
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .stairs__title{
-  max-width: 315px;
+  max-width: 210px;
 }
 .stairs__wrapper{
   display: flex;
@@ -279,6 +279,67 @@
   margin-top: 22px;
 }
 
-
 // end section stairs
+
+// start section price
+
+.price{
+  padding: 60px 0px 60px;
+}
+
+.price__title{
+  width: 355px;
+}
+.price__text{
+  @extend %AnPro-Regular;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+.price__text-down{
+  max-width: 860px;
+  width: 100%;
+}
+
+.price__box{
+  margin: 0 auto;
+  max-width: 540px;
+  width: 100%;
+  border-left: 1px solid $line;
+  border-right: 1px solid $line;
+  margin-bottom: 40px;
+
+}
+
+.price__inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.price__name{
+  @extend %AlGrey-Bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  width: 50%;
+}
+.price-money{
+  @extend %AlGrey-Regular;
+  width: 50%;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.price__btn__wrapper{
+  text-align: center;
+}
+
+
+// end section price
+
+
+
  @import 'media';
