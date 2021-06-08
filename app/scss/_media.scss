@@ -44,7 +44,7 @@
 
 
 @media(max-width: 950px) {
-  .title{
+  .main-title{
     font-size: 36px;
     line-height: 45px;
   }
@@ -64,21 +64,27 @@
 
 
 @media(max-width: 485px) {
-  .menu__wrapper{
-    order: 0;
-    padding-left: 70px;
-  }
-  .header__btn{
-    display: block;
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-  .header__top{
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-  }
-  .title{
+  .main-title{
     font-size: 28px;
     line-height: 32px;
   }
+  .menu__list-btn {
+    display: block;
+  }
+  .header__btn{
+    display: none;
+  }
+
+
+  // Временный фикс бага картинки главного экрана. Не растягивалась вниз
+  .header, 
+  .header-background {
+    height: 1050px;
+  }
+   // Временный фикс бага картинки главного экрана. Не растягивалась вниз
+
+
+
+
+
 }
