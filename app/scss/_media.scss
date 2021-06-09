@@ -3,7 +3,6 @@
     justify-content: center;
   }
   .stairs__item{
-    // width: 100%;
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -55,13 +54,34 @@
   .menu__arrow::before {
     display: none;
   }
-
   .footer__inner{
     flex-wrap: wrap;
   }
 }
 
-
+@media(max-width: 1200px) {
+  .header__global-images {
+    max-width: 486px;
+    height: 600px;
+  }
+  .header__global-box{
+    margin-top: 30px;
+  }
+  .header__global-inner{
+    margin-top: 0;
+    justify-content: center;
+  }
+  .header__global-box{
+    max-width: 480px;
+    padding: 0 5px 0px 30px;
+  }
+  .flat__btn {
+    padding-top: 145px;
+  }
+  .header__global-line {
+    margin-top: 0px;
+  }
+}
 
 @media(max-width: 950px) {
   .main-title{
@@ -69,7 +89,6 @@
     line-height: 45px;
   }
   .header__title{
-    max-width: 578px;
     text-align: center;
   }
   .benefits__subtitle{
@@ -84,7 +103,22 @@
     max-width: 370px;
     width: 100%;
   }
+  .header__global-box{
+    max-width: 415px;
+  }
+  .flat__btn {
+    padding-top: 95px;
+  }
 }
+
+
+
+
+
+
+
+
+
 @media(max-width: 880px) {
   .footer__wrapper{
     flex-wrap: wrap;
@@ -100,6 +134,17 @@
     justify-content: center;
     text-align: center;
   }
+  .header__global-images {
+    max-width: 324px;
+    height: 400px;
+  }
+  .header__global-box{
+    margin-top: 0;
+  }
+  .global__btn {
+    padding-top: 30px;
+  }
+  
 }
 
 @media(max-width: 800px) {
@@ -138,6 +183,23 @@
 
 
 
+@media(max-width: 700px) {
+  .header__global-inner{
+    flex-wrap: wrap;
+  }
+  .header__global-images{
+    margin-bottom: 30px;
+  }
+  .header__global-box{
+    padding: 0;
+  }
+  .main__line{
+    margin-bottom: 30px;
+  }
+}
+
+
+
 @media(max-width: 650px) {
   .stairs__img{
     width: 250px;
@@ -149,7 +211,7 @@
     width: 100%;
   }
   .header__title{
-    border-bottom: 1px solid transparent;
+    border-bottom: transparent;
   }
 }
 
@@ -191,8 +253,6 @@
   }
   .write-phone,
   .write-e-mail{
-    // text-align: center;
-    // justify-content: center;
     margin: 10px auto;
    max-width: 250px; 
    padding-right: 38px;
@@ -232,7 +292,7 @@
     margin-left: 4px;
   }
   .write__title{
-    max-width: 270px;
+    // max-width: 270px;
     padding-top: 20px !important;
     margin-bottom: 0;
   }
@@ -279,7 +339,7 @@
     height: 1078px;
   }
   .title{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     padding: 0 10px;
   }
   .benefits__subtitle,
@@ -295,16 +355,6 @@
 
   .price__title{
     margin-bottom: 35px;
-    max-width: 240px;
-  }
-  .stairs__title {
-    max-width: 210px;
-  }
-  .benefits__title {
-    max-width: 210px;
-  }
-  .gallery__title{
-    max-width: 201px;
   }
 
 

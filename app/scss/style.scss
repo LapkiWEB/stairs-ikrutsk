@@ -5,10 +5,8 @@
  // start header
 
  .header {
-   // max-width: 1920px;
    max-width: 100%;
    min-height: 885px;
-   background-image: url(../images/content/header-background.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -127,9 +125,6 @@
    position: relative;
    display: none;
  }
-.header__title{
-  max-width: 757px;
-}
 .header__wrapper{
   width: 100%;
   position: relative;
@@ -156,6 +151,7 @@
 .header__list-link{
   padding: 25px 4px 0px 3px;
   border-bottom: 1px solid transparent;
+  transition: all .3s;
   &:hover{
     border-bottom: 1px solid $blue;
   }
@@ -167,17 +163,14 @@
 .benefits{
   padding: 40px 0;
 }
-.benefits__title{
-  max-width: 326px
-}
 .benefits__subtitle{
   @extend %AnPro-Regular;
   text-align: center;
   margin: 0 auto;
   max-width: 1280px;
   width: 100%;
-  font-size: 24px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 22px;
   margin-bottom: 66px;
 }
 .benefits__wrapper{
@@ -191,6 +184,10 @@
 }
 .benefits__item-img{
   margin: 0 auto;
+  img{
+    width: 70px;
+    height: 70px;
+  }
 }
 .benefits__item-text{
   @extend %AnPro-Regular;
@@ -228,9 +225,6 @@
 .stairs{
   padding: 60px 0;
 }
-.stairs__title{
-  max-width: 314px;
-}
 .stairs__wrapper{
   display: flex;
   justify-content: space-between;
@@ -241,13 +235,12 @@
   justify-content: space-between;
   max-width: 605px;
   margin-bottom: 70px;
-  transition: all .5s;
+  transition: all .3s;
   &:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 }
 .stairs__img{
-  // background-image: url(../images/content/stairs__item1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -281,19 +274,13 @@
 }
 .stairs__items-btn{
   margin-top: 22px;
-  // padding-bottom: 5px;
   margin-bottom: 7px;
 }
 
 // end section stairs
-
 // start section price
 .price{
   padding: 60px 0px 60px;
-}
-
-.price__title{
-  width: 355px;
 }
 .price__text{
   @extend %AnPro-Regular;
@@ -306,7 +293,6 @@
   max-width: 860px;
   width: 100%;
 }
-
 .price__box{
   margin: 0 auto;
   max-width: 540px;
@@ -320,7 +306,6 @@
   justify-content: space-between;
   padding: 25px 0;
 }
-
 .price__name{
   @extend %AlGrey-Bold;
   font-size: 18px;
@@ -335,7 +320,6 @@
   line-height: 24px;
   text-align: center;
 }
-
 .price__btn__wrapper{
   text-align: center;
 }
@@ -343,7 +327,6 @@
 // end section price
 
 // start section write
-
 
 .write{
   background-image: url(../images/content/write-background.jpg);
@@ -353,15 +336,12 @@
   min-height: 510px;
   max-width: 100%;
 }
-
 .write__background {
   background: rgba(59, 59, 59, 0.8);
   min-height: 510px;
   max-width: 100%;
 }
-
 .write__title{
-  max-width: 378px;
   padding-top: 40px;
   margin-bottom: 70px;
 }
@@ -447,7 +427,6 @@
     content: "";
     top: 0;
     left: 0;
-    
     width: 21px;
     height: 21px;
   }
@@ -469,15 +448,10 @@
     margin-left: 20px;
   }
 }
-
 // end section write
 // start section gallery
-
 .gallery{
   padding: 40px 0;
-}
-.gallery__title{
-  max-width: 302px;
 }
 .gallery__inner {
   display: flex;
@@ -533,11 +507,8 @@
 .gallery__wrapper-btn{
   text-align: center;
 }
-
 // end section gallery
-
 // start footer
-
 .footer{
   padding: 40px 0;
   border-top: 2px solid $line;
@@ -577,8 +548,16 @@
 }
 .footer__menu {
   font-size: 14px;
-  line-height: 30px;
+  line-height: 15px;
   color: $line;
+}
+.footer__list-link {
+  border-bottom: 1px solid transparent;
+  margin-bottom: 20px;
+  transition: all .3s;
+  &:hover {
+    border-bottom: 1px solid $blue;
+  }
 }
 .footer__social{
   padding: 0;
@@ -598,5 +577,60 @@
 }
 
 // end footer
+
+
+
+// start str flat
+.header__global-line{
+  margin-top: 80px;
+}
+.header__global-images{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 640px;
+  height: 790px;
+  z-index: 1;
+  box-shadow: 0px 4px 10px #3B3B3B;
+}
+.header__global-inner{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -220px;
+}
+.header__global-box{
+  margin-top: 220px;
+  max-width: 585px;
+  width: 100%;
+  padding: 0 40px;
+  position: relative;
+}
+.header__global-text {
+  padding-top: 40px;
+}
+.global__btn{
+  text-align: center;
+}
+.flat__btn{
+  padding-top: 170px;
+}
+.header__global--down-text{
+  padding: 34px 0 45px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  @import 'media';
