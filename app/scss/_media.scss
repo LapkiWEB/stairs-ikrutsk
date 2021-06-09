@@ -7,6 +7,9 @@
     margin-left: 40px;
     margin-right: 40px;
   }
+  .gallery__inner{
+    justify-content: center;
+  }
 }
 
 
@@ -80,8 +83,6 @@
 }
 
 
-
-
 @media(max-width: 800px) {
   .benefits__inner,
   .stairs__inner {
@@ -91,6 +92,7 @@
   .stairs__text{
     margin-bottom: 25px;
     text-align: center;
+    padding-right: 0;
   }
   .benefits__btn,
   .stairs__btn{
@@ -208,6 +210,7 @@
   }
   .stairs__items-btn{
     margin-bottom: 10px;
+    margin-left: 4px;
   }
   .write__title{
     max-width: 270px;
@@ -217,6 +220,23 @@
   .write__form{
     padding-top: 20px;
     margin-bottom: 0;
+  }
+  .gallery__item{
+    flex-wrap: wrap;
+    max-width: 500px;
+  }
+  .gallery__box{
+    max-width: 100%;
+    height: auto;
+  }
+  .gallery__wrapper{
+    width: 100%;
+  }
+  .gallery__box-description{
+    padding-top: 15px;
+  }
+  .gallery__img{
+    max-width: 500px;
   }
 }
 
@@ -261,7 +281,9 @@
   .benefits__title {
     max-width: 210px;
   }
-
+  .gallery__title{
+    max-width: 201px;
+  }
 
 
 }
