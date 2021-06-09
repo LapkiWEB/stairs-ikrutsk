@@ -100,6 +100,19 @@
   .benefits__item{
     margin-bottom: 20px;
   }
+  .write__form{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .write__form-box{
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+  .write__btn{
+    position: inherit;
+  }
 }
 
 
@@ -145,6 +158,25 @@
   .price-money{
     width: 100%;
   }
+  .write__inner{
+    flex-wrap: wrap;
+  }
+  .write__item{
+    width: 100%;
+    justify-content: center;
+  }
+  .write__social{
+    padding: 0;
+  }
+  .write-phone,
+  .write-e-mail{
+    // text-align: center;
+    // justify-content: center;
+    margin: 10px auto;
+   max-width: 250px; 
+   padding-right: 38px;
+   text-align: center;
+  }
 }
 
 
@@ -170,6 +202,21 @@
     text-align: center;
     max-width: 320px;
     width: 100%;
+  }
+  .stairs__down {
+    padding-top: 10px;
+  }
+  .stairs__items-btn{
+    margin-bottom: 10px;
+  }
+  .write__title{
+    max-width: 270px;
+    padding-top: 20px !important;
+    margin-bottom: 0;
+  }
+  .write__form{
+    padding-top: 20px;
+    margin-bottom: 0;
   }
 }
 
@@ -207,6 +254,12 @@
   .price__title{
     margin-bottom: 35px;
     max-width: 240px;
+  }
+  .stairs__title {
+    max-width: 210px;
+  }
+  .benefits__title {
+    max-width: 210px;
   }
 
 
