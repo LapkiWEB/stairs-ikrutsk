@@ -55,6 +55,10 @@
   .menu__arrow::before {
     display: none;
   }
+
+  .footer__inner{
+    flex-wrap: wrap;
+  }
 }
 
 
@@ -81,7 +85,22 @@
     width: 100%;
   }
 }
-
+@media(max-width: 880px) {
+  .footer__wrapper{
+    flex-wrap: wrap;
+  }
+  .footer__info{
+    order: 1;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .footer__inner{
+    justify-content: center;
+    text-align: center;
+  }
+}
 
 @media(max-width: 800px) {
   .benefits__inner,
@@ -255,6 +274,9 @@
   }
   .header__btn{
     display: none;
+  }
+  .header__menu{
+    height: 1078px;
   }
   .title{
     margin-bottom: 15px;
