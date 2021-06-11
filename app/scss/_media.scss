@@ -320,6 +320,14 @@
   .gallery__img{
     max-width: 500px;
   }
+  .finishing__item{
+    width: 320px;
+    height: 229px;
+    margin: 0px 0px 50px;
+  }
+  .finishing__text{
+    padding-bottom: 50px;
+  }
 }
 
 
@@ -365,7 +373,6 @@
     text-align: center;
   }
 }
-
 @media(max-width: 400px) {
   .global-slider__item{
     min-height: 220px !important;

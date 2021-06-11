@@ -674,7 +674,32 @@
 
  // end footer
 
+// start section plaster
+.finishing__title{
+  padding-top: 40px;
+}
+.finishing__inner{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.finishing__item{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 286px;
+  margin: 0 10px 75px;
+}
+.finishing__text{
+  @extend %AnPro-Regular;
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 80px;
+  text-align: center;
+}
 
+// end section plaster
 
  
 
