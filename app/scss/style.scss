@@ -701,7 +701,15 @@
 
 // end section plaster
 
- 
+// start section error
+ .error__text {
+   text-align: center;
+ }
+
+ .error__header {
+   min-height: 350px;
+ }
+// end section error
 
 
  @import 'media';
