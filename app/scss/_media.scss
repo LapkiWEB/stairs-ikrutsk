@@ -258,6 +258,9 @@
    padding-right: 38px;
    text-align: center;
   }
+  .global-slider__inner{
+    padding: 0 0 50px 0;
+  }
 }
 
 
@@ -352,10 +355,20 @@
     height: 1050px;
   }
    // Временный фикс бага картинки главного экрана. Не растягивалась вниз
-
   .price__title{
     margin-bottom: 35px;
   }
+  .header.global__header {
+    height: auto;
+  }
+  .global__text{
+    text-align: center;
+  }
+}
 
-
+@media(max-width: 400px) {
+  .global-slider__item{
+    min-height: 220px !important;
+    margin: 0;
+  }
 }

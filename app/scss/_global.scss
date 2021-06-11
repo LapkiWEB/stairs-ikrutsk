@@ -125,3 +125,93 @@ li {
   margin-bottom: 56px;
   max-width: fit-content;
 }
+
+
+// start global header
+.header__global-line {
+  margin-top: 80px;
+}
+
+.header__global-images {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 640px;
+  height: 790px;
+  z-index: 1;
+  box-shadow: 0px 4px 10px #3B3B3B;
+}
+
+.header__global-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -220px;
+}
+
+.header__global-box {
+  margin-top: 220px;
+  max-width: 585px;
+  width: 100%;
+  padding: 0 40px;
+  position: relative;
+}
+
+.header__global-text {
+  padding-top: 40px;
+}
+
+.global__btn {
+  text-align: center;
+}
+
+.flat__btn {
+  padding-top: 170px;
+}
+
+.header__global--down-text {
+  padding: 34px 0 45px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+// end global header
+// start global slider
+.global-slider__inner {
+  padding: 0 50px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.global-slider__item {
+  min-height: 250px !important;
+  height: 100%;
+  margin: 0 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slick-next {
+  position: absolute;
+  right: 0px;
+  top: 80px;
+  z-index: 1;
+}
+
+.slick-prev {
+  top: 80px;
+  z-index: 1;
+  left: 0;
+  position: absolute;
+}
+
+.slick-arrow {
+  cursor: pointer;
+  outline: none;
+  width: 55px;
+  height: 90px;
+  background-color: transparent;
+  border: none;
+}
+
+// end global slider
