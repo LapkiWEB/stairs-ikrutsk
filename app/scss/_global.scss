@@ -11,17 +11,9 @@ html {
 html,
 body {
   @extend %AnPro-Regular;
-  // background-color: $background;
   color: $text;
-  // max-width: 1920px;
-  // height: 100%;
   position: relative;
   overflow-x: hidden;
-  // font-size: 20px;
-  // line-height: 24px;
-  // min-width: 320px;
-  // color: #2F3035;
-  // font-family: sans-serif;
   margin: 0 auto;
   background-color: $background;
 }
@@ -53,13 +45,11 @@ li {
   padding: 0;
   list-style: none;
 }
-
 .container {
   max-width: 1310px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .main__btn {
   padding: 13px 20px;
   border: 1px solid $blue;
@@ -74,9 +64,7 @@ li {
     background-color: $blue;
   }
 }
-
 .main__line {
-  // height: 110px;
   background: rgba(181, 171, 159, 0.8);
   padding: 16px 70px 30px;
   position: relative;
@@ -91,8 +79,6 @@ li {
     background: rgba(181, 171, 159, 0.8);
   }
 }
-
-
 .main-title{
   @extend %AlGrey-Bold;
   font-size: 48px;
@@ -103,17 +89,7 @@ li {
   padding: 0 20px;
   border-bottom: 2px solid $blue;
   max-width: fit-content;
-  // &::before{
-  //   content: "";
-  //   border: 2px solid $blue;
-  //   background-color: $blue;
-  //   position: absolute;
-  //   bottom: 0px;
-  //   right: 0;
-  //   width: 100%;
-  // }
-} 
-
+}
 .title{
   @extend %AlGrey-Bold;
   font-size: 36px;
@@ -125,13 +101,10 @@ li {
   margin-bottom: 56px;
   max-width: fit-content;
 }
-
-
 // start global header
 .header__global-line {
   margin-top: 80px;
 }
-
 .header__global-images {
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,13 +114,11 @@ li {
   z-index: 1;
   box-shadow: 0px 4px 10px #3B3B3B;
 }
-
 .header__global-inner {
   display: flex;
   justify-content: space-between;
   margin-top: -220px;
 }
-
 .header__global-box {
   margin-top: 220px;
   max-width: 585px;
@@ -155,15 +126,12 @@ li {
   padding: 0 40px;
   position: relative;
 }
-
 .header__global-text {
   padding-top: 40px;
 }
-
 .global__btn {
   text-align: center;
 }
-
 .flat__btn {
   padding-top: 170px;
 }
@@ -176,7 +144,6 @@ li {
 .finishing__btn{
   padding-top: 95px;
 }
-
 .header__global--down-text {
   padding: 34px 0 45px;
   font-size: 18px;
@@ -190,7 +157,6 @@ li {
   position: relative;
   padding-bottom: 50px;
 }
-
 .global-slider__item {
   min-height: 250px !important;
   height: 100%;
@@ -199,21 +165,18 @@ li {
   background-size: cover;
   background-position: center;
 }
-
 .slick-next {
   position: absolute;
   right: 0px;
   top: 80px;
   z-index: 1;
 }
-
 .slick-prev {
   top: 80px;
   z-index: 1;
   left: 0;
   position: absolute;
 }
-
 .slick-arrow {
   cursor: pointer;
   outline: none;
@@ -222,5 +185,4 @@ li {
   background-color: transparent;
   border: none;
 }
-
 // end global slider
