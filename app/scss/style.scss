@@ -68,7 +68,6 @@
 
  .sub-menu__list {
    background: rgba(59, 59, 59, 0.95);
-   padding: 12px 10px;
    transition: all .3s;
    cursor: pointer;
 
@@ -79,6 +78,7 @@
  }
 
  .sub-menu__list-link {
+   padding: 12px 10px;
    width: 100%;
  }
 

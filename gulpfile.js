@@ -42,6 +42,7 @@ function scripts() {
   return src([
     'node_modules/jquery/dist/jquery.js', 
     'node_modules/slick-carousel/slick/slick.min.js',
+    'node_modules/wow.js/dist/wow.min.js',
     'app/js/main.js'  
   ])
   .pipe(concat('main.min.js'))
@@ -54,6 +55,7 @@ function styles() {
     return src([
       'app/scss/style.scss',
       'node_modules/slick-carousel/slick/slick.css',
+      'node_modules/animate.css/animate.min.css',
   ])
     .pipe(scss({outputStyle: 'compressed'}))
     .pipe(concat('style.min.css'))

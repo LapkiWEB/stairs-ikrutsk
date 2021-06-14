@@ -1,7 +1,4 @@
-// $( function () {
-
-
-// })
+new WOW().init();
 
 $(document).ready(function () {
   $('.menu__wrapper').click(function () {
@@ -40,24 +37,7 @@ $('.global-slider__inner').slick({
       settings: {
         arrows: false,
         slidesToShow: 1,
-        
       }
     }
   ]
 });
-
-
-// const anchors = document.querySelectorAll('a[href*="#"]');
-
-// for (let anchor of anchors) {
-//   anchor.addEventListener("click", function (event) {
-//     event.preventDefault();
-//     const blockID = anchor.getAttribute('href');
-//     document.querySelector('' + blockID).scrollIntoView({
-//       behavior: "smooth",
-//       block: "start"
-//     });
-//   });
-// }
-
-// new WOW().init();
