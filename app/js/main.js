@@ -21,7 +21,7 @@ $(document).ready(function () {
 $('.global-slider__inner').slick({
   prevArrow: '<button class="slick-arrow slick-prev"><img src="images/icons/arrow-left.svg" alt=""></button>',
   nextArrow: '<button class="slick-arrow slick-next"><img src="images/icons/arrow-right.svg" alt=""></button>',
-  infinite: false,
+  infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,

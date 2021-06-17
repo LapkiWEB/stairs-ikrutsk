@@ -254,7 +254,7 @@
   .write-phone,
   .write-e-mail{
     margin: 10px auto;
-   max-width: 250px; 
+   max-width: 332px; 
    padding-right: 38px;
    text-align: center;
   }
@@ -377,5 +377,15 @@
   .global-slider__item{
     min-height: 220px !important;
     margin: 0;
+  }
+  .write-phone,
+  .write-e-mail {
+    padding: 0;
+    &::before{
+      display: none;
+    }
+  }
+  .write__line{
+    padding: 15px 0;
   }
 }
